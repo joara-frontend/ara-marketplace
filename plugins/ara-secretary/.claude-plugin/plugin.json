@@ -1,0 +1,15 @@
+{
+  "name": "ara-secretary",
+  "displayName": "Ara Secretary",
+  "description": "회의 비서 페르소나. 회의 녹취록으로 회의록과 액션 아이템을 정리한다",
+  "version": "0.1.0",
+  "author": {
+    "name": "조아라"
+  },
+  "keywords": [
+    "meeting",
+    "minutes",
+    "action-items",
+    "korean"
+  ]
+}

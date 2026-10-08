@@ -1,0 +1,14 @@
+{
+  "name": "ara-marketplace",
+  "description": "아라 전용 Claude Code 플러그인 마켓플레이스. 플러그인은 직업 페르소나, 스킬은 그 직업의 능력",
+  "owner": {
+    "name": "조아라"
+  },
+  "plugins": [
+    {
+      "name": "ara-secretary",
+      "source": "./plugins/ara-secretary",
+      "description": "회의 비서 페르소나. 회의 녹취록으로 회의록과 액션 아이템을 정리한다"
+    }
+  ]
+}
