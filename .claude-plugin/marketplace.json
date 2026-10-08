@@ -8,7 +8,7 @@
     {
       "name": "ara-secretary",
       "source": "./plugins/ara-secretary",
-      "description": "회의 비서 페르소나. 회의 녹취록으로 회의록과 액션 아이템을 정리한다"
+      "description": "회의 비서 페르소나. 회의 녹취록으로 회의록과 액션 아이템을 정리해 Notion에 저장한다"
     }
   ]
 }
