@@ -1,0 +1,14 @@
+{
+  "name": "ara-reviewer",
+  "displayName": "Ara Reviewer",
+  "description": "코드 리뷰어 페르소나. PR 번호로 변경사항을 분석해 한국어 리뷰를 작성한다",
+  "version": "0.1.0",
+  "author": {
+    "name": "joara-thrlaw"
+  },
+  "keywords": [
+    "review",
+    "pull-request",
+    "korean"
+  ]
+}

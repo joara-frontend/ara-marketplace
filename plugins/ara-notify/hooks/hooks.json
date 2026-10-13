@@ -1,0 +1,29 @@
+{
+  "description": "Windows 알림창 훅 (PowerShell MessageBox)",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -c \"Start-Process powershell -ArgumentList '-c', 'Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show(''선택이 필요해요'', ''Claude Code'')'\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -c \"Start-Process powershell -ArgumentList '-c', 'Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show(''Claude가 응답했어요! 확인해주세요'', ''Claude Code'')'\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

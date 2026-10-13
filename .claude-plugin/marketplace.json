@@ -1,0 +1,24 @@
+{
+  "name": "ara-marketplace",
+  "description": "아라 전용 Claude Code 플러그인 마켓플레이스. 플러그인은 직업 페르소나, 스킬·에이전트·훅은 그 직업의 능력",
+  "owner": {
+    "name": "joara-thrlaw"
+  },
+  "plugins": [
+    {
+      "name": "ara-reviewer",
+      "source": "./plugins/ara-reviewer",
+      "description": "코드 리뷰어 페르소나. PR 번호로 변경사항을 분석해 한국어 리뷰를 작성하는 에이전트"
+    },
+    {
+      "name": "ara-git",
+      "source": "./plugins/ara-git",
+      "description": "Git 작업 페르소나. 팀/1인 모드에 맞춰 커밋, push, PR 생성까지 처리하는 스킬"
+    },
+    {
+      "name": "ara-notify",
+      "source": "./plugins/ara-notify",
+      "description": "Windows 알림 훅. 선택이 필요하거나 응답이 끝나면 알림창을 띄운다"
+    }
+  ]
+}

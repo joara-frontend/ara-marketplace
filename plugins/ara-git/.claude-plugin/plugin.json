@@ -1,0 +1,14 @@
+{
+  "name": "ara-git",
+  "displayName": "Ara Git",
+  "description": "Git 작업 페르소나. 프로젝트 컨벤션을 읽고 팀/1인 모드에 맞춰 커밋, push, PR 생성을 처리한다",
+  "version": "0.1.0",
+  "author": {
+    "name": "joara-thrlaw"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "pull-request"
+  ]
+}

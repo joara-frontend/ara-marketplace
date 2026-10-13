@@ -1,0 +1,14 @@
+{
+  "name": "ara-notify",
+  "displayName": "Ara Notify",
+  "description": "Windows 알림 훅. 선택이 필요하거나 응답이 끝나면 알림창을 띄운다 (PowerShell 필요)",
+  "version": "0.1.0",
+  "author": {
+    "name": "joara-thrlaw"
+  },
+  "keywords": [
+    "hooks",
+    "notification",
+    "windows"
+  ]
+}
